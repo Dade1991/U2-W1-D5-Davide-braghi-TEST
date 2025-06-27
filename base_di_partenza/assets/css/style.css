@@ -126,7 +126,7 @@ nav {
 
   svg {
     position: absolute;
-    left: 365px;
+    left: 55%;
     overflow: hidden;
   }
 }
@@ -148,8 +148,8 @@ nav {
   }
 
   svg {
-    position: relative;
-    left: 365px;
+    position: absolute;
+    left: 35%;
     overflow: hidden;
   }
 }
