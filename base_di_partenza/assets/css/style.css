@@ -379,6 +379,11 @@ hr {
   border-width: 1px;
 }
 
+.related-Articles-List {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .related-Articles {
   margin-top: 20px;
   padding-left: 25px;
@@ -493,4 +498,20 @@ hr {
 .related-Date .far {
   font-size: 1.2em;
   color: grey;
+}
+
+@media screen and (min-width: 1025px) {
+  .desktop-Menu {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .side-Desktop-Menu {
+    width: 50%;
+  }
+
+  .related-Articles-List {
+    width: 50%;
+    margin-top: 55px;
+  }
 }
