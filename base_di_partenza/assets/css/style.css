@@ -9,12 +9,15 @@
 nav {
   background-color: #ffc017;
   padding: 25px;
+  padding-top: 35px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border-bottom: solid 1px black;
   font-family: "Roboto", sans-serif;
   font-size: 0.95em;
+  position: sticky;
+  top: 0;
 }
 
 nav a {
@@ -70,6 +73,8 @@ header {
   margin-top: 40px;
   padding: 15px 22px;
   border-radius: 50px;
+  text-decoration: none;
+  font-size: 1.2em;
 }
 
 svg {
@@ -115,10 +120,14 @@ main {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 15px;
-  background-color: antiquewhite;
   margin: 10px;
   margin-bottom: 20px;
+  /* transition: 0.25s; */
 }
+
+/* .trending-Article:hover {
+  transform: translate(25px);
+} */
 
 h3 {
   font-weight: 900;
@@ -222,7 +231,6 @@ hr {
 .related-Articles-List article {
   display: flex;
   flex-direction: row;
-  background-color: antiquewhite;
   height: 200px;
   margin-bottom: 40px;
 }
